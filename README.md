@@ -60,7 +60,7 @@ See [bitcointalk.org](https://bitcointalk.org/index.php?topic=1391598.0) post fo
  
 ### Windows Wallet
 
-[https://github.com/pepeteam/pepecoin/releases](https://github.com/pepeteam/pepecoin/releases)
+[https://github.com/memeticofficial/pepecoin-memetic/releases](https://github.com/memeticofficial/pepecoin-memetic/releases)
 
 
 #### Linux Builds:
@@ -73,22 +73,27 @@ Ubuntu 18.04+ or Debian 9+ is recommended.
 >
 >sudo apt-get install build-essential libtool autotools-dev automake pkg-config libevent-dev bsdmainutils libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev libminiupnpc-dev libgmp3-dev libdb-dev libdb++-dev libgmp3-dev lzma-dev libssl1.0-dev zlib1g-dev zlib1g libgmp-dev 
 >	
->git clone https://github.com/pepeteam/pepecoin.git
+>git clone https://github.com/memeticofficial/pepecoin-memetic.git
 >
->cd pepecoin/src
+>cd pepecoin-memetic/src
 >
 >make -f makefile.unix USE_UPNP=-
 >
 >strip pepecoind
 >
 
-Or you can use the shell script at https://gist.github.com/cryptopepe/82b59b51680e13e5f1e08224bfdd71fc
+after successfully compiling you can may move pepecoind to run "globally" as an application by doing the following
+>cd pepecoin-memetic/src
+>
+>mv pepecoind /usr/bin
+
+You can also the shell script at https://gist.github.com/cryptopepe/82b59b51680e13e5f1e08224bfdd71fc to compile (remember to chmod +x to make script executable) for more info visit https://snap.memetic.ai/cheatsheet.txt
 
 #### Instructions for Building GUI Wallet
 
 >sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler qt5-default build-essential libtool autotools-dev automake pkg-config libevent-dev bsdmainutils libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev libminiupnpc-dev libgmp3-dev libdb-dev libdb++-dev libgmp3-dev lzma-dev libssl1.0-dev zlib1g-dev zlib1g libgmp-dev
 >
->git clone https://github.com/pepeteam/pepecoin.git
+>git clone https://github.com/memeticofficial/pepecoin-memetic.git
 >
 >cd pepecoin 
 >
@@ -100,7 +105,7 @@ Or you can use the shell script at https://gist.github.com/cryptopepe/82b59b5168
 # Links
 
 
-[Windows Wallet](https://github.com/pepeteam/pepecoin/releases) 
+[Windows Wallet](https://github.com/memeticofficial/pepecoin-memetic/releases) 
 
 [Bitcointalk ANN](https://bitcointalk.org/index.php?topic=1391598.0) 
 
@@ -114,17 +119,10 @@ https://kekdaq.com
 
 ### Exchanges
 
-[Bittrex (USA)](https://bittrex.com/Market/Index?MarketName=BTC-MEME) -- Largest regulated and secure US exchange
+[Bittrex (Global)](https://global.bittrex.com/Market/Index?MarketName=BTC-MEME) -- Global site operating since c.2014
+[Txbit.io (Global)](https://txbit.io/Trade/MEME/BTC) -- No KYC CEX with BTC and USDT Pair
 
-[Upbit (ASIA)](https://upbit.com/exchange?code=CRIX.UPBIT.BTC-MEME) -- Popular South Korean exchange
 
-[Changenow (Worldwide)](https://changenow.io/) -- Shapeshift type service accepting cc purchases
-
-[Coinswitch (Worldwide)](https://coinswitch.co/) -- Shapeshift type service
-
-[Coinexchange (EU)](https://www.coinexchange.io/market/MEME/BTC)
-
-<s>[Cryptopia](https://www.cryptopia.co.nz/Exchange?market=PEPE_BTC)</s> -- Remove requested after exchange hacked
 
 ### Block Explorer
 
@@ -158,12 +156,9 @@ https://kekdaq.com
 ***
 
 **Nodes**
-addnode=seed.pepecoin.net
-
 addnode=seed.memetic.ai
 
-addnode=seed.kekdaq.com
-
+Find Bootstrap at snap.memetic.ai/latest.tar.gz
 
 ![pepecoin-256](https://i.imgur.com/xnSJvT9.jpg  "pepecoin-256")
 
