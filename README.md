@@ -1,4 +1,4 @@
-![Memetic Logo](http://i.imgur.com/zLMetXi.png  "Memetic Logo") ![PepeCoin Logo](https://imgur.com/9KNdKWJ.png "PepeCoin Logo v2") ![Original PepeCoin Logo](https://i.imgur.com/eJxc4B2.jpg "PepeCoin Logo v1") 
+![Memetic Logo](http://i.imgur.com/zLMetXi.png  "Memetic Logo") ![PepeCoin Logo](https://imgur.com/9KNdKWJ.png "PepeCoin Logo v2")
 ***
 # PepeCoin - PEPE  / Memetic - MEME
 #### v. 3.1.1.0
@@ -200,3 +200,4 @@ all copies or substantial portions of the Software.
 
  See LICENSE file for more info.
 ------------------
+![Original PepeCoin Logo](https://i.imgur.com/eJxc4B2.jpg "PepeCoin Logo v1") 
